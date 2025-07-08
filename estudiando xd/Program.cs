@@ -15,7 +15,8 @@ namespace estudiando_xd
          Ejercicios n1 = new Ejercicios();
             // n1.sumaNumeros();
             //n1.unocien();
-            n1.indicarN();
+            //n1.indicarN();
+            n1.burbuja();
         }
     }
 }

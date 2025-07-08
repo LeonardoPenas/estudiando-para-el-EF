@@ -10,6 +10,9 @@ namespace MiBiblioteca
 {
     public class Ejercicios
     {
+        private static IEnumerable<int> numeros;
+
+        //ARREGLO UNIDIMENSIONAL
         /*Ejercicio 4
          public void datos()
          {
@@ -92,7 +95,7 @@ namespace MiBiblioteca
             Console.ReadKey()
         */
 
-        // Ejercicio 7
+        /* Ejercicio 7
 
         public void indicarN()
         { 
@@ -124,9 +127,70 @@ namespace MiBiblioteca
 
 
             }
+        */
 
+        //ARREGLO BURBUJA O DE ORDENAMIENTO
+        public void burbuja()
+        {
+            int[] numeros = new int[] { 14, 5, 27, 19, 8, 3 };
+            Console.WriteLine("INICIO");
+
+            int extIteraciones = 0;
+            int intIteraciones = 0;
+           // bool flag = true;  //Para evitar iteraciones de más si el arreglo ya está ordenado
+
+
+            for (int i = 0; i < numeros.Length ; i++) // Se agrega ---> && flag
+
+            {
+            // flag = false; //Para que  que continue el algoritmo si exista una comparacion    
+
+
+                extIteraciones++;
+                for (int j = 0; j < numeros.Length-i-1; j++)// si se le agrega -1 las iteraciones internas se reducen mucho
+                {
+                    intIteraciones++;  
+                    if (numeros[j] > numeros[j+1])
+                    {
+                        //flag = true; //Si se hace un intercambio, significa que el arreglo no está ordenado
+                        int aux = numeros[j];
+                        numeros[j] = numeros[j + 1];
+                        numeros[j + 1] = aux;
+                    }
+                }
+               /* foreach (int numero in numeros)
+                {
+                    Console.Write(numero + " ");
+                }
+                Console.WriteLine("\n");
+                // con esto se ve como el arreglo funciona
+               */
+
+
+
+
+
+            }
+            Console.WriteLine("numero de iteraciones externas: " + extIteraciones);
+            Console.WriteLine("numero de iteraciones internas: " + intIteraciones);
+            Console.WriteLine("Despues de ordenar: ");
+            foreach (int numero in numeros)
+            {
+                Console.Write(numero + " ");
+            }
+            Console.WriteLine("\n");
+
+            Console.ReadKey();
 
         }
+
+        
+         
+
+        
+
+
+
 
 
 
@@ -140,17 +204,18 @@ namespace MiBiblioteca
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
     
 
