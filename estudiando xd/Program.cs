@@ -12,11 +12,23 @@ namespace estudiando_xd
     {
         static void Main(string[] args)
         {
-         Ejercicios n1 = new Ejercicios();
+            Ejercicios n1 = new Ejercicios();
             // n1.sumaNumeros();
             //n1.unocien();
-            //n1.indicarN();
-            n1.burbuja();
+            //n1.indicarN()
+           //Console.WriteLine("Ingrese cuantos nombres desea poner: ");
+           //int cantidad = int.Parse(Console.ReadLine());
+            // n1.insertarMascotas(cantidad);
+            //n1.mostrarMascotas();
+            //n1.buscarMascota();
+            //n1.matrices();
+
+            Console.WriteLine("Ingrese el numero de filas: ");
+            int f = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el numero de columnas: ");
+            int c = int.Parse(Console.ReadLine());
+            n1.sumaMatrices(f,c);
+            Console.ReadKey();
         }
     }
 }
