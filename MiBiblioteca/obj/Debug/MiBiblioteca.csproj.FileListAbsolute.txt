@@ -1,0 +1,6 @@
+D:\1.ING DE SISTEMAS\Trabajos visual studio Bv\ExamenFinal_ErickPenas\MiBiblioteca\bin\Debug\MiBiblioteca.dll
+D:\1.ING DE SISTEMAS\Trabajos visual studio Bv\ExamenFinal_ErickPenas\MiBiblioteca\bin\Debug\MiBiblioteca.pdb
+D:\1.ING DE SISTEMAS\Trabajos visual studio Bv\ExamenFinal_ErickPenas\MiBiblioteca\obj\Debug\MiBiblioteca.csproj.AssemblyReference.cache
+D:\1.ING DE SISTEMAS\Trabajos visual studio Bv\ExamenFinal_ErickPenas\MiBiblioteca\obj\Debug\MiBiblioteca.csproj.CoreCompileInputs.cache
+D:\1.ING DE SISTEMAS\Trabajos visual studio Bv\ExamenFinal_ErickPenas\MiBiblioteca\obj\Debug\MiBiblioteca.dll
+D:\1.ING DE SISTEMAS\Trabajos visual studio Bv\ExamenFinal_ErickPenas\MiBiblioteca\obj\Debug\MiBiblioteca.pdb
